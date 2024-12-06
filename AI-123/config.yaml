@@ -1,0 +1,13 @@
+vector_db:
+  host: localhost
+  port: 6333
+  collection_name: repositories
+
+llm:
+  model_id: text-davinci-003
+  max_tokens: 150
+  temperature: 0.7
+
+embedding:
+  model_id: sentence-transformers/all-mpnet-base-v2
+  batch_size: 32
